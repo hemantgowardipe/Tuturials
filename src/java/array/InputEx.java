@@ -9,6 +9,7 @@ public class InputEx {
         int n = sc.nextInt();
         System.out.println("Enter Second Number");
         int m = sc.nextInt();
+
         int add = n+m;
         System.out.println("Addition ="+add);
     }
