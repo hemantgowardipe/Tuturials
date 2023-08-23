@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class InputEx {
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter First Number");
         int n = sc.nextInt();
@@ -11,6 +12,6 @@ public class InputEx {
         int m = sc.nextInt();
 
         int add = n+m;
-        System.out.println("Addition ="+add);
+        System.out.println("addition ="+add);
     }
 }
