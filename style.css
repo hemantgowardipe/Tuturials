@@ -1,15 +1,41 @@
-.main{
-    font-size: xx-large;
-    font-weight: bold;
+h1{
     text-align: center;
+    color: rgb(129, 200, 23);
+    text-decoration: underline grey;
 }
-.text{
-    border: 40px solid rgb(79, 223, 66);
-    text-align: center ;
-    width: auto; ;
-    height: auto;
-    padding: 60px;
+.text1{
+    column-count: 4;
+    column-gap: 40px;
+    padding: 30px;
+    font-size: medium;
+}
+p{
+    text-align: center;
     font-size: large;
     font-weight: bold;
-    font-style: italic;
+}
+.row{
+    display: grid;
+    gap: 20px 20px;
+    width: auto;
+}
+.col{
+    background-color: rgb(237, 79, 79);
+    border: 2px solid grey;
+    width: fit-content;
+    height: auto;
+    font-size: medium;
+}
+.main{
+    display: grid;
+    grid:  auto auto /auto auto auto;
+    grid-gap :10px;
+    padding: 20px;
+    background-color: green;
+}
+.text2{
+    text-align: center;
+    font-size: large;
+    padding: 25px 0;
+    background-color: lightgrey;
 }
