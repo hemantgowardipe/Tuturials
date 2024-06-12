@@ -1,0 +1,15 @@
+.main{
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+.text{
+    border: 40px solid rgb(79, 223, 66);
+    text-align: center ;
+    width: auto; ;
+    height: auto;
+    padding: 60px;
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+}
