@@ -1,0 +1,250 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#container{
+	width: 100%;
+	height: 1700px;
+	/*border: 1px solid black;*/
+}
+/*logo css start*/
+#header img{
+	margin-top: 0;
+	width: 125px;
+	height: auto;
+}
+/*logo css end*/
+/*nav css start*/
+.navbutton h2{
+	width: 30%;
+	height: 60px;
+	font-family: sans-serif;
+	float: left;
+	background-color: black;
+	color: white;
+}
+.navbutton ul {
+	border: 1px solid black;
+	width: 70%;
+	height: 58px;
+	margin-top: -60px;
+	float: right;
+	background-color: black;
+}
+.navbutton ul a{
+	text-decoration: none;
+	color: white;
+	float: right;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.navbutton ul a:hover{
+	text-decoration: underline white;
+}
+/*nav css end*/
+/*content css start*/
+#content h1{
+	text-align: center;
+	margin-top: 100px;
+	font-family: sans-serif;
+	font-size: 40px;
+	letter-spacing: 3px;
+
+}
+#content p{
+	text-align: center;
+	margin-top: 20px;
+	font-family: sans-serif;
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+/*content css end*/
+/*box css start*/
+#main{
+	width: 80%;
+	height: 150px;
+	/*border: 1px solid black;*/
+	margin-top: 50px;
+	margin-left: 150px;
+}
+.b1{
+	width: 18%;
+	height: 115px;
+	/*border: 1px solid black;*/
+	float: left;
+	margin-top: 0;
+	margin-left: 65px;
+}
+/*box css end*/
+/*main2 css start*/
+#main2 h1{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 25px;
+	margin-top: 50px;
+	letter-spacing: 2px;
+}
+#main2 p{
+	text-align: center;
+	font-family: sans-serif;
+	margin-top: 20px;
+	letter-spacing: 2px;
+}
+#main2 button{
+	margin-top: 20px;
+	padding: 15px;
+	padding-left: 100px;
+	padding-right: 100px;
+	background-color: white;
+	border: 0.5px solid black;
+	
+}
+#main2 button:hover{
+	background-color:lightgray;
+}
+/*main2 css end*/
+/*main3 css start*/
+#main3 h3{
+	text-align: center;
+	margin-top: 50px;
+	font-family: sans-serif;
+	letter-spacing: 2px;
+}
+/*main3 css end*/
+/*main4  css start*/
+#main4 a{
+	text-decoration: none;
+	color: black;
+}
+#main4 a:hover{
+	color: lightslategray;
+}
+/*main4 css end*/
+/*mode info css start*/
+.button button{
+	border: 0.5px solid black;
+	transition-duration: 0.25s;
+	float: left;
+	margin-left: 140px;
+	margin-top: 30px;
+	font-size: 12px;
+	letter-spacing: 1px;
+	background-color: white;
+	font-family: sans-serif;
+}
+.button button:hover{
+	background-color: lightgray;
+	border: none;
+}
+/*mode info css start*/
+/*footer start*/
+#footer{
+	width: 90%;
+	height: 810px;
+	margin: auto;
+	background-color:white ;
+
+}
+#extra h2{
+	text-align: center;
+	letter-spacing: 5px;
+}
+.icon{
+	width: 17%;
+	height: 150px;
+	border: 1px solid black;
+	float: right;
+	margin-right: 87px;
+	margin-top: 30px;
+}
+.icon:hover{
+	border: 2px solid black;
+	transition: 0.1ms;
+}
+#left {
+	width: 30%;
+	height: 200px;
+	/*border: 1px solid black;*/
+	margin-top: 45px;
+	margin-left: 60px;
+}
+#left h2{
+	text-align: center;
+	font-style: italic;
+	margin-top: 10px;
+	font-size: 37px;
+	letter-spacing: 5px;
+	text-shadow: 0px 2px 3px gray;
+}
+#left h2:hover{
+	text-decoration: underline;
+}
+#left button{
+	font-size: 15px;
+	margin-top: 8px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 90px;
+	padding-right: 90px;
+	border: none;
+}
+#left button:hover{
+	color: white;
+	background-color: black;
+	transition-duration: 0.25s;
+}
+#mid{
+	width: 30%;
+	height: 200px;
+	/*border: 1px solid black;*/
+	float: right;
+	margin-right: 500px;
+	margin-top: -202px;
+}
+#mid a{
+	text-decoration: none;
+	color: black;
+}
+#mid ul li{
+	text-align: center;
+	margin: 20px;
+}
+#mid ul li:hover{
+	text-decoration: underline;
+}
+#right{
+	width: 30%;
+	height: 200px;
+	/*border: 1px solid black;*/
+	float: right;
+	margin-top: -202px;
+	margin-right: 60px;
+}
+#right a{
+	text-decoration: none;
+	color: black;
+
+}
+#right ul li{
+	text-align: center;
+	margin: 20px;
+}
+#right ul li:hover{
+	text-decoration: underline;
+}
+#footer2{
+	margin-top: 150px;
+}
+#end a{
+	text-decoration: none;
+	color: black;
+}
+#end ul li{
+	display: inline;
+	float: left;
+}
+#end ul li:hover{
+	text-decoration: underline;
+}
+/*footer end*/

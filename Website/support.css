@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#container{
+	width: 100%;
+	height: 1700px;
+	/*border: 1px solid black;*/
+}
+/*logo css start*/
+#header img{
+	margin-top: 0;
+	width: 125px;
+	height: auto;
+}
+/*logo css end*/
+/*nav css start*/
+.navbutton h2{
+	width: 30%;
+	height: 60px;
+	font-family: sans-serif;
+	background-color: gray;
+	color: white;
+}
+.navbutton ul {
+	border: 1px solid gray;
+	width: 70%;
+	height: 58px;
+	margin-top: -60px;
+	float: right;
+	background-color: gray;
+}
+.navbutton ul a{
+	text-decoration: none;
+	color: white;
+	float: right;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.navbutton ul a:hover{
+	text-decoration: underline white;
+}
+/*nav css end*/
+
+/*main css start*/
+#main p{
+	text-align: center;
+	font-family: sans-serif;
+	margin-top: 20px;
+
+}
+/*main css end*/

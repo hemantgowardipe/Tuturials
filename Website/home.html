@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home Page</title>
+	<link rel="stylesheet" type="text/css" href="home.css">
+	<style type="text/css">
+		#myBtn{position: fixed;display: none;z-index: 99;bottom: 20px;
+}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<button onclick="topFunction()" id="myBtn" title="Go to top" style="background-color: black;color: white;">Top</button>
+		<script type="text/javascript">
+			/*whe the user scroll down 20px from the top of the document , shiw the button*/
+			window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+				if(document.body.scrollTop >20 || document.documentElement.scrollTop >20) {
+					document.getElementById('myBtn').style.display = "black";
+				}
+				else{
+					document.getElementById('myBtn').style.display = "none";
+				}
+			}
+			/*when the user clicks on the button , scroll to the top of the document*/
+			function topFunction(){
+				document.body.scrollTop = 0;
+				document.documentElement.scrollTop = 0;
+			}
+			
+		</script>
+		<!-- Header start -->
+		<div id="header">
+			<img src="media/cadillaclogo.png">
+			<h1 style="font-style: italic;">CADILLAC</h1>
+			<div id="social">
+				<a href="https://www.facebook.com/cadillac" target="blank">
+					<img title="facebook" src="media/facebook.png">
+				</a>
+					<a href="https://x.com/Cadillac" target="blank">
+						<img title="twitter" src="media/twitter.png">
+					</a>
+						<a href="https://www.instagram.com/cadillac/" target="blank">
+							<img title="insta" src="media/insta.png">
+						</a>
+			</div>
+		</div>
+		<!-- Header end -->
+
+		<!-- Menu Section start-->
+		<div id="menu">
+			<ul>
+				<a href="home.html"><li>HOME</li></a>
+				<a href="service.html"><li>SERVICE</li></a>
+				<a href="warrenty.html"><li>WARRENTY</li></a>
+				<a href="support.html"><li>SUPPORT</li></a>
+				<a href="contact.html"><li>CONTACT</li></a>
+			</ul>
+		</div>
+		<!-- Menu Section end -->
+		<hr style="border: 1px solid black;">
+		<!-- news and banner section start-->
+		<div id="news">
+			<h4>
+				OWNERSHIP
+			</h4>
+			<marquee direction="up" 
+			onmouseover="this.stop()" 
+			onmouseout="this.start()">
+			<p>You are currently viewing Cadillac.com. Close this window to stay here or choose another country to see vehicles and services specific to your location.</p>
+			<ul>
+				<a href="service.html"><li>Service</li></a>
+				<a href="warrenty.html"><li>Warrenty</li></a>
+				<a href="support.html"><li>Support</li></a>
+			</ul>
+		</marquee>
+			
+		</div>
+		<div id="banner">
+			<h4>DISCOVER CADILLAC</h4>
+			<p>CADILLAC INNOVATION<br>
+					Innovation isn’t just what we do; it’s coded in our DNA. From inventing the electric starter to re-inventing how
+					we drive, we will continue our 115-year journey to drive the world forward. And there’s no end in sight.</p>
+	<center><img src="media/cadillac.png"></center>
+			
+		</div>
+		<div style="clear:both;"></div>
+		<!-- news and banner section end -->
+
+		<!-- our services section start -->
+		<br><center>
+		<h2 style="color: white;">CERTIFIES SERVICE</h2></center>
+		<br>
+		<div id="service">
+			<div class="service2">
+			<img src="media/maintenance.png"
+			 width="305px" 
+			 height="250px">
+			<h3>MAINTENANCE</h3>
+			<p>Whatever maintenance your vehicle requires, our expert Cadillac Certified Service advisors are ready to meet your needs. You and your Cadillac are exceptional, so your service team should be too.</p>	
+			<center><button><a href="https://www.cadillac.com/ownership/protection" target="blank" style="color:white;text-decoration: none;">LEARN MORE</a></button></center>
+			</div>
+			<div class="service2">	
+				<img src="media/tyres.png" width="305px" height="250px">
+							<h3>TIRES & PARTS</h3>	
+							<p>TIRE PRICE MATCH GUARANTEE
+Provide us with a better eligible price at the time of purchase, and we’ll match it. Find a better eligible price within 30 days of the purchase, and we’ll refund the difference.* </p>
+	<center><button><a href="https://www.cadillac.com/ownership/protection" target="blank" style="color:white;text-decoration: none;">LEARN MORE</a></button></center>
+			</div>
+			<div class="service2">
+				<img src="media/repair.png" width="305px" height="250px">	
+							<h3>SERVICE & REPAIR</h3>
+							<p>SERVICE & REPAIR
+Our expert Cadillac Certified Service experts offer seamless support so you can keep making moves with confidence.</p>
+<center><button><a href="https://www.cadillac.com/ownership/protection" target="blank" style="color:white;text-decoration: none;">LEARN MORE</a></button></center>
+			</div>
+			<div class="service2">
+				<img src="media/overview.png" width="305px" height="250px">	
+							<h3>OVERVIEW</h3>
+							<p>EXPERT CARE, EVERY TIME
+Stay ahead of the crowd with dedicated, seamless support from Cadillac Certified Service.</p>
+	<center><button><a href="https://www.cadillac.com/ownership/certified-service" target="blank" style="color:white;text-decoration: none;"> LEARN MORE</a></button></center>
+			</div>	
+		</div>
+	</div>
+		<!--  our services section end-->
+<!-- footer start -->
+<div id="footer">
+	<div id="extra">
+		<br>
+		<h2>FIND YOUR ICON</h2>
+		<div class="icon">
+			<center><img src="media/icon4.png" width="80px" height="60px" style="margin-top: 23px;"></center>
+			<pre style="text-align: center;font-size: 18px;margin-top: 10px;font-family: serif;letter-spacing: 2px;">FIND A DEALER</pre>
+		</div>
+		<div class="icon">
+			<center><img src="media/icon3.png" width="80px" height="60px" style="margin-top: 23px;"></center>
+			<pre style="text-align: center;font-size: 18px;margin-top: 10px;font-family: serif;letter-spacing: 2px;">SEARCH INVENTORY</pre>
+		</div>
+		<div class="icon">
+			<center><img src="media/logo2.png" width="80px" height="60px" style="margin-top: 23px;"></center>
+			<pre style="text-align: center;font-size: 18px;margin-top: 10px;font-family: serif;letter-spacing: 2px;">BUILD & BUY</pre>
+		</div>
+		<div class="icon">
+			<center><img src="media/icon1.png" width="80px" height="60px" style="margin-top: 23px;"></center>
+			<pre style="text-align: center;font-size: 18px;margin-top: 10px;font-family: serif;letter-spacing: 2px;">REQUEST A QOUTE</pre>
+		</div>
+		<div style="clear:both;"></div>
+	</div>	
+	<p style="text-align:center;letter-spacing: 4px;margin-top: 75px;">Your safety is very important to us. If you want to determine whether or not there is a recall on your current vehicle or on a vehicle you are considering, visit www.nhtsa.gov/recalls or call (888) 327-4236.</p>
+	<div id="footer2">
+	<div id="left">
+		<h2>CADILLAC</h2>
+		<center><button>GET UPDATES</button></center>
+		<center><img src="media/icon3.png" title="SEARCH" width="40px" height="30px" style="margin-top:20px;margin-right: 70px;"></center>
+		<pre title="SEARCH" style="text-align:center;float: right;margin-right: 150px;margin-top: -28px;font-size: 20px;">SEARCH</pre>
+	</div>
+	<div id="mid">
+		<ul type="none">
+			<a href=""><li>CADILLAC HERITAGE</li></a>
+				<a href=""><li>EQUITY & JUSTICE</li></a>
+					<a href=""><li>SUSTAINABILITY</li></a>
+						<a href=""><li>SUPER CRUISE</li></a>
+		</ul>
+	</div>
+	<div id="right">
+		<ul type="none">
+		<a href=""><li>DIGITAL BROCHURES</li></a>
+				<a href=""><li>CADILLAC FINANCE</li></a>
+					<a href=""><li>CONTACT US</li></a>
+						<a href=""><li>RECALL</li></a>
+						<a href=""><li>BUSINESS TAX DEDUCTION</li></a>
+					</ul>
+	</div>
+</div>
+	<hr style="border:1px solid black; margin-top: 40px;">
+	<div id="end">
+<ul type="none">
+	<a href=""><li>Newsroom | </li></a>
+	<a href=""><li> Cadillac Worldwide | </li></a>
+	<a href=""><li>Site Map | </li></a>
+	<a href=""><li>Legal | </li></a>
+	<a href=""><li>Careers </li></a>
+</ul>
+</div>
+</div>
+<!-- footer end -->
+
+
+</body>
+</html>
